@@ -24,6 +24,7 @@ body {
 }
 
 li {
+    list-style: none;
     position: relative;
     float: left;
     left: 10px;
