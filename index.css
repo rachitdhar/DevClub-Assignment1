@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    background-color: black;
+}
+
+.navbar-ul {
+    display: flex;
+}
+
+li {
+    position: relative;
+    float: left;
+    left: 10px;
+}
+
+li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(128, 128, 128, 0.425);
+}
+
+.header {
+    position: relative;
+    left: 100px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 10vh;
+    font-weight: 700;
+}
+
+.header h3 {
+    color: rgb(245, 245, 151);
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.header-bg {
+    display: flex;
+    align-items: center;
+    margin: -8px;
+    margin-top: 0;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(85, 23, 7),rgb(91, 10, 116));
+}
+
+.virus-img {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 10%;
+}
+
+.tips h2 {
+    margin-top: 25px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.tips-box {
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid rgb(240, 160, 229);
+    display: flex;
+    justify-content: space-between;
+}
+
+.tips-box-left h3 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    padding: 100px;
+}
+
+.tips-box-right h3 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    padding: 100px;
+}
+
+.symptoms-bg {
+    margin: -8px;
+    background-image: linear-gradient(to bottom right, rgb(85, 23, 7),rgb(91, 10, 116));
+    height: 55vh;
+}
+
+.symptoms h2 {
+    margin-top: 25px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    color: white;
+}
+
+table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td {
+    text-align: center;
+    border: 2px solid rgb(117, 8, 105);
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 500;
+    color: black;
+}
+
+td {
+    background-color: rgb(240, 168, 236);
+}
+
+th {
+    background-image: linear-gradient(to bottom right, rgb(151, 46, 146),rgb(192, 93, 179));
+    font-weight: 600;
+    color: white;
+}
+
+.faqs h2 {
+    margin-top: 25px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.meta-box {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 25px;
+}
+
+.box {
+    margin: 15px;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid rgb(240, 160, 229);
+}
+
+.box h3 {
+    font-size: x-large;
+    font-weight: 550;
+}
+
+.yt-bg {
+    background-image: linear-gradient(to bottom right, rgb(85, 23, 7),rgb(91, 10, 116));
+}
+
+.yt h2 {
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+iframe {
+    position: relative;
+    left: 26%;
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+.footer-bg {
+    margin: -8px;
+    background-color: black;
+}
+
+.footer {
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
